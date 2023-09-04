@@ -59,7 +59,6 @@ const ContentSlider = (props) => {
     const email = emailObject.email;
     const handelData = async () => {
       try {
-        r;
         const response = await axios.post(`${webLink}/find-name`, {
           email,
         });

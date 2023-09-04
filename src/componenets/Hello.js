@@ -27,7 +27,7 @@ const Hello = (props) => {
 
   return (
     <div className={`fade-in ${fadeIn ? 'active' : ''}`}>
-      <div className="main-page">
+      <div className="main-page hello">
         <div className="close-back">
           <Link to="/slider        ">
             <div
@@ -77,7 +77,7 @@ const Hello = (props) => {
           </p>
         </div>
 
-        <div className="button-block-homescreen name forms mobile">
+        <div className="button-block-homescreen name forms mobile margin">
           <Button
             type="submit"
             width="350px"

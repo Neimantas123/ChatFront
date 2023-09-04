@@ -31,7 +31,7 @@ const HomeScreen = () => {
 
   return (
     <div className="loading-screen main firstpage">
-      <video
+      {/* <video
         className="desktop"
         autoPlay
         loop
@@ -43,7 +43,15 @@ const HomeScreen = () => {
           marginTop: '20px',
         }}
         src={videoUrl}
-      />
+      /> */}
+      {/* <p className="home-welcome-to">Welcome to</p> */}
+      <div className="foto-ugo homescreen desktop">
+        <img
+          style={{ marginTop: '24px' }}
+          src={require('../assets/ugo.png')}
+          alt="Ugo"
+        />
+      </div>
 
       <div className="foto-ugo mobile">
         {/* <p className="home-welcome-to">Welcome to</p> */}

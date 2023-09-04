@@ -668,8 +668,8 @@ img.ugo-question-logo {
 
 .button-block-homescreen {
   width: 100%;
-  position: fixed;
-  bottom: 30px;
+  /* position: fixed;
+  bottom: 30px; */
 }
 
 .button-block-homescreen.name.forms {
@@ -679,6 +679,10 @@ img.ugo-question-logo {
 .button-block-homescreen.forms {
   display: flex;
   flex-direction: column;
+}
+
+.button-block-homescreen.name.forms.mobile.margin {
+  margin-top: 50px;
 }
 
 .slick-track {
@@ -984,7 +988,7 @@ img.foto-ugo-other img.foto-ugo-other {
 .hello-text {
   text-align: center;
   position: fixed;
-  bottom: 16vh;
+  bottom: 5vh;
 }
 
 .hello-text.desktop {
@@ -1893,9 +1897,6 @@ button.slider-mobile-button.terms {
     width: 40% !important;
     margin-left: 30% !important;
   }
-  .button-block-homescreen {
-    bottom: 180px;
-  }
 
   /* .button-block-homescreen.mobile.loginpage {
     bottom: 0px;
@@ -1924,7 +1925,7 @@ button.slider-mobile-button.terms {
 }
 
 .loading-screen.main.firstpage {
-  justify-content: start;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 769px) {
